@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from langchain_openai import ChatOpenAI
 from langchain_community.tools import DuckDuckGoSearchRun
 from langgraph.graph import StateGraph, END
-from src.state import AgentState
+from state import AgentState
 
 load_dotenv()
 
